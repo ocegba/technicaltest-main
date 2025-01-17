@@ -27,7 +27,7 @@ docker-compose up --build
 docker exec -it <drf_api_container_name> bash # you can find drf container name with docker ps
 # inside drf container
 python manage.py migrate
-python generate_sensor_data
+python generate_sensor_data.py
 ```
 
 ### 3. Accéder aux services
