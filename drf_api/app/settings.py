@@ -26,7 +26,7 @@ POSTGRES_PORT = os.getenv("POSTGRES_PORT", 5435)
 INFLUXDB_URL = os.getenv("INFLUXDB_URL", "http://localhost:8086")
 INFLUXDB_TOKEN = os.getenv("INFLUXDB_TOKEN", "AdminTokenValue")
 INFLUXDB_ORG = os.getenv("INFLUXDB_ORG", "ombrea")
-INFLUXDB_TIMEOUT = os.getenv("INFLUXDB_TIMEOUT", 60)
+INFLUXDB_TIMEOUT = os.getenv("INFLUXDB_TIMEOUT", 120)
 INFLUXDB_VERIFY_SSL = os.getenv("INFLUXDB_VERIFY_SSL", True)
 
 # Quick-start development settings - unsuitable for production
@@ -44,6 +44,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",

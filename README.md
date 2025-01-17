@@ -43,3 +43,7 @@ python generate_sensor_data.py
 > **N.B.** : Pour bénéficier pleinement des outils de votre IDE (comme les imports automatiques ou le linting), vous pouvez effectuer les installations nécessaires en local, en dehors de l’environnement Docker. 
 
 > **Utile** : Librairie pour faire des graphes en js : [plotly](https://plotly.com/javascript/)
+
+
+Resultat 
+![Image du graphe](image.png)
